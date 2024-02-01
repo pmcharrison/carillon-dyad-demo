@@ -6,4 +6,4 @@ You can clone the project locally, install the requirements with `pip install -r
 and then open the Jupyter notebook with `jupyter notebook Demo.ipynb`.
 Alternatively you can open the notebook in a cloud-hosted environment by clicking the badge below.
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/pmcharrison/consonance-dyad-demo/HEAD?labpath=demo_synth.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/pmcharrison/carillon-dyad-demo/HEAD?labpath=demo_synth.ipynb)
