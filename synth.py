@@ -3,8 +3,6 @@ import numpy as np
 import pandas as pd
 import soundfile as sf
 
-from psynet.utils import log_time_taken
-
 
 def freq_to_midi(frequency, ref=440):
     return 69 + np.log2(frequency / ref) * 12
@@ -32,7 +30,6 @@ def import_carillon_samples():
 
 carillon_samples = import_carillon_samples()
 
-@log_time_taken
 def synth_stimulus(path, lower_pitch, upper_pitch):
     sample_rate = 44100
 
